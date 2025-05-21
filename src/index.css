@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #e3e6e8;
+  --foreground: #666c7a;
+  --primary: #666c7a;
+  --secondary: #6e707c;
+  --accent: #d9b479;
+  --light-green-1: #666c7a;
+  --light-green-2: #6e707c;
+  --light-green-3: #776d5f;
+  --beige: #e3e6e8;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: var(--background);
+  /* קובץ התמונה לא קיים - הסרת ההתייחסות אליו */
+  /* background-image: url("/stone-pattern.png"); */
+  background-repeat: repeat;
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+}
+
+/* עדכון לכל הכותרות באתר */
+h1, h2, h3, h4, h5, h6 {
+  color: #858873;
+  font-weight: 700;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--background);
+}
+
+/* For Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 20px;
+  border: 3px solid var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 20px;
+  border: 3px solid var(--background);
+}
