@@ -56,11 +56,11 @@ const Modaah = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="flex flex-col items-center gap-4 mb-12"
+          className="flex flex-col gap-4 items-center mb-12"
         >
-          <div className="text-gray-800 mb-4" style={{ transform: 'translateY(-4.57191px)' }}>
+          <div className="mb-4 text-gray-800" style={{ transform: 'translateY(-4.57191px)' }}>
             <h2 
-              className="text-4xl md:text-5xl font-bold mb-6"
+              className="mb-6 text-4xl font-bold md:text-5xl"
               style={{ 
                 fontFamily: 'Assistant, sans-serif',
                 color: '#858873',
@@ -72,14 +72,14 @@ const Modaah = () => {
             </h2>
             <div className="absolute bottom-0 left-0 right-0 h-3 bg-gradient-to-r from-white via-[#858873] to-[#858873] rounded-full transform translate-y-2"></div>
           </div>
-          <p className="text-lg max-w-2xl mx-auto text-center" style={{ color: '#858873' }}>
+          <p className="mx-auto max-w-2xl text-lg text-center" style={{ color: '#858873' }}>
             מגוון טיפולים מותאמים אישית לצרכים שלך, בסביבה מרגיעה ומקצועית
           </p>
         </motion.div>
 
         {/* Videos Grid */}
         <div 
-          className="grid grid-cols-1 gap-4 mb-4 md:grid-cols-3 w-full"
+          className="grid grid-cols-1 gap-4 mb-4 w-full md:grid-cols-3"
           style={{
             margin: '0 -50vw',
             width: '100vw',
